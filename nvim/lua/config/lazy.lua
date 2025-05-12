@@ -29,21 +29,11 @@ require("lazy").setup({
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "catppuccin" } },
+  install = { colorscheme = { "tokyonight-moon" } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
 
-require("catppuccin").setup()
-vim.cmd.colorscheme "catppuccin"
 
-local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<C-p>', builtin.find_files, { desc = 'Telescope find files' })
-vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
 
-local config = require("nvim-treesitter.configs")
-config.setup({
-  ensure_installed = {"lua", "javascript", "html"},
-  highlight = { enable = true },
-  indent = { enable = true },
-})
+
