@@ -15,7 +15,7 @@ return {
 			{ "j-hui/fidget.nvim" },
 		},
 		config = function()
-			local map_lsp_keybinds = require("dmmulroy.keymaps").map_lsp_keybinds
+			local map_lsp_keybinds = require("khuang.keymaps").map_lsp_keybinds
 
 			local vtsls_inlay_hints = {
 				enumMemberValues = { enabled = true },

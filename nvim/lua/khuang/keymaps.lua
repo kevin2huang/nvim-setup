@@ -1,6 +1,6 @@
 
 local twoslash = require("twoslash-queries")
-local copy_line_diagnostics_to_clipboard = require("dmmulroy.prelude").copy_line_diagnostics_to_clipboard
+local copy_line_diagnostics_to_clipboard = require("khuang.prelude").copy_line_diagnostics_to_clipboard
 
 local M = {}
 
