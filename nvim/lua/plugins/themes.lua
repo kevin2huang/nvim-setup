@@ -30,9 +30,9 @@ return {
 					treesitter_context = true,
 				},
 			})
-			local palette = require("catppuccin.palettes").get_palette("macchiato")
+			local palette = require("catppuccin.palettes").get_palette("mocha")
 
-			vim.cmd.colorscheme("catppuccin-macchiato")
+			vim.cmd.colorscheme("catppuccin-mocha")
 
 			vim.api.nvim_set_hl(0, "BlinkCmpMenu", { bg = palette.base })
 			vim.api.nvim_set_hl(0, "BlinkCmpMenuBorder", { fg = palette.blue })

@@ -194,6 +194,8 @@ vim.keymap.set("n", "gx", ":sil !open <cWORD><cr>", { silent = true, desc = "Ope
 -- Run TypeScript compiler
 vim.keymap.set("n", "<leader>tc", ":TSC<cr>", { desc = "Run TypeScript compile" })
 
+vim.keymap.set("n", "<leader>tx", ":TSCClose<cr>", { desc = "Close TypeScript compile" })
+
 -- Harpoon keybinds --
 vim.keymap.set("n", "<leader>ho", function()
 	require("harpoon.ui").toggle_quick_menu()

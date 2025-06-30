@@ -22,8 +22,8 @@ vim.opt.breakindent = true
 vim.opt.incsearch = true
 vim.opt.hlsearch = true
 
--- Disable text wrap
-vim.opt.wrap = false
+-- Text wrap
+vim.opt.wrap = true
 
 -- Set leader key to space
 vim.g.mapleader = " "
